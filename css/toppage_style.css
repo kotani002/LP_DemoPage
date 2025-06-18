@@ -1,0 +1,21 @@
+/* style.css */
+html {
+    background-color: rgb(190, 190, 190);
+}
+
+/*コンテンツ全体を中央寄せに変更*/
+html,
+body,
+.content {
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+/*ここでボディのboxの大きさを決める*/
+.body__wrapper {
+    width: 100%;
+    height: 2500px;
+    /*ヘッダーの大きさ分下げる*/
+    padding-top: 100px;
+}
