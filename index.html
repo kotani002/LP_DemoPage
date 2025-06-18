@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="寺墓地.COM(ドットコム) - 新星会合同会社のサイトです">
     <!--ライブラリ（jQuery）を読み込んで使う-->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--共通パーツの読み込み-->
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+
     <link rel="stylesheet" href="css/style.css">
     <title>小皇帝飯店</title>
 </head>
 
 <body>
-    <?php include "common/header.html"; ?>
+    <?php include '/include/header.html';?>
 
     <div class="body__wrapper">
 
@@ -21,9 +28,9 @@
         <section class="main">
             ここにメインコンテンツが入る
         </section>
-
-        <div id="footer"></div>
     </div>
+
+
 </body>
 
 </html>
