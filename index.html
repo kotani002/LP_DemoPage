@@ -13,16 +13,13 @@
     <title>小皇帝飯店</title>
 </head>
 
+<div id="header"></div>
+
+<script>
+    $('#header').load('header.html');
+</script>
+
 <body>
-
-    <div id="header"></div>
-
-    <script>
-        fetch("common/header.html")
-            .then((response) => response.text())
-            .then((data) => document.querySelector("#header").innerHTML = data);
-    </script>
-
 
     <div class="body__wrapper">
 
@@ -35,7 +32,6 @@
 
         </section>
     </div>
-
 
 </body>
 

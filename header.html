@@ -30,20 +30,9 @@
                 <li><a href="#">店内紹介</a></li>
                 <li><a href="#">ご予約・お問い合わせ</a></li>
 
+                <script src="./js/header.js"></script>
                 <!--ライブラリ（jQuery）を読み込んで使う-->
                 <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
-
-                <script>
-                    $(function () {
-                        $('.hamburger').click(function () {
-                            // メニューの開閉状態を切り替える
-                            $('.header__menu').toggleClass('open');
-
-                            // ハンバーガーボタンのアクティブクラスを切り替えて三本線をバツにする
-                            $(this).toggleClass('active');
-                        });
-                    });
-                </script>
             </ul>
         </nav>
     </div>
