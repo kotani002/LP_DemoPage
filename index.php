@@ -8,19 +8,23 @@
     <!--ライブラリ（jQuery）を読み込んで使う-->
     <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
     <!--共通パーツの読み込み-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/toppage_style.css">
+    <link rel="stylesheet" href="css/common_style.css">
     <title>小皇帝飯店</title>
 </head>
 
 <body>
-    <?php include "header.html" ?>
+    <?php include "common/header.html"?>
 
     <div class="body__wrapper">
 
-        <div id="header"></div>
-
         <section class="main">
-            ここにメインコンテンツが入る
+            ここにメインコンテンツが入る<br>
+            料理のスライド<br>
+            各コースの紹介<br>
+            予約の案内<br>
+            マップ<br>
+
         </section>
     </div>
 
