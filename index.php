@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include "common/header.html" ?>
+    <?php include "common/header.html"; ?>
 
     <div class="body__wrapper">
 
