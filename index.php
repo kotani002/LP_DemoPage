@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 
 <head>
@@ -8,18 +8,12 @@
     <!--ライブラリ（jQuery）を読み込んで使う-->
     <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
     <!--共通パーツの読み込み-->
-    <script>
-        $(function () {
-            $("#header").load("header.html");
-        });
-    </script>
-
     <link rel="stylesheet" href="css/style.css">
     <title>小皇帝飯店</title>
 </head>
 
 <body>
-    <?php include '/include/header.html';?>
+    <?php include "header.html" ?>
 
     <div class="body__wrapper">
 
