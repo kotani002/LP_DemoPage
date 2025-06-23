@@ -16,6 +16,7 @@ body,
     position: fixed;
     width: 100%;
     height: auto;
+    z-index: 10;
 }
 
 .header__wrapper {
@@ -59,7 +60,6 @@ body,
     /* スライドインのアニメーション */
     padding: 20px;
     box-sizing: border-box;
-    z-index: 10;
 }
 
 /* メニューが開いているとき */
@@ -74,7 +74,6 @@ body,
     right: 30px;
     width: 40px;
     cursor: pointer;
-    z-index: 20;
 }
 
 /* ハンバーガーメニューのバーの調整 */

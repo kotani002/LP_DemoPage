@@ -1,0 +1,148 @@
+/*カルーセルエリア全体の制御*/
+.top_carouselArea {
+    justify-content: center;
+    display: flex;
+}
+
+/*カルーセルエリア*/
+.carousel {
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+/*カルーセルエリア内の表示画像の設定*/
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+
+/*スライダーの確認*/
+.slide {
+    flex: 1 0 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slide1 {
+    background-image: url(../image/common/test01.png);
+}
+
+.slide2 {
+    background-image: url(../image/common/test01.png);
+}
+
+.slide3 {
+    background-image: url(images/news/enkouji/enkouji01.jpg);
+}
+
+.slide4 {
+    background-image: url(images/news/toukouin/toukouin01.jpg);
+}
+
+.slide5 {
+    background-image: url(images/news/hourenji/tokyo06.jpg);
+}
+
+.slide6 {
+    background-image: url(images/news/kakusyouji/tokyo09.jpg);
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(0, 91, 94);
+    color: rgb(252, 255, 45);
+    border: none;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.nav-button.prev {
+    left: 0px;
+}
+
+.nav-button.next {
+    right: 0px;
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* デフォルトで表示されるラジオボタンの非表示 */
+input[type="radio"] {
+    display: none;
+}
+
+/* ナビゲーションのドット */
+.navigation {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.bar {
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 47, 41);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* クリックされたドットによってスライドの表示位置を変化させる */
+#slide1:checked~.slides {
+    transform: translateX(0);
+}
+
+#slide2:checked~.slides {
+    transform: translateX(-100%);
+}
+
+#slide3:checked~.slides {
+    transform: translateX(-200%);
+}
+
+#slide4:checked~.slides {
+    transform: translateX(-300%);
+}
+
+#slide5:checked~.slides {
+    transform: translateX(-400%);
+}
+
+#slide6:checked~.slides {
+    transform: translateX(-500%);
+}
+
+/* 選択中のドットの色を変更 */
+#slide1:checked~.navigation label[for="slide1"],
+#slide2:checked~.navigation label[for="slide2"],
+#slide3:checked~.navigation label[for="slide3"],
+#slide4:checked~.navigation label[for="slide4"],
+#slide5:checked~.navigation label[for="slide5"],
+#slide6:checked~.navigation label[for="slide6"] {
+    background: rgb(252, 255, 45);
+    ;
+}

@@ -10,29 +10,87 @@
     <!--共通パーツの読み込み-->
     <link rel="stylesheet" href="css/toppage_style.css">
     <link rel="stylesheet" href="css/common_style.css">
+    <link rel="stylesheet" href="css/carousel_area_style.css">
     <title>小皇帝飯店</title>
 </head>
 
-<div id="header"></div>
-
-<script>
-    $('#header').load('header.html');
-</script>
+<!--ヘッダーの追加-->
+<div class="header" id="header"></div>
 
 <body>
-
     <div class="body__wrapper">
+        <div class="main__contents__wrapper">
 
-        <section class="main">
-            ここにメインコンテンツが入る<br>
-            料理のスライド<br>
-            各コースの紹介<br>
-            予約の案内<br>
-            マップ<br>
+            <!--カルーセルエリアの追加-->
+            <div id="carousel_area"></div>
 
-        </section>
+            <!--トップページの内容-->
+            <section class="toppage__contents">
+                <!--見出しの追加-->
+                <div class="toppage__contents__headline">
+                    <h1>イベント・キャンペーン</h1>
+                </div>
+
+                <div class="toppage__contents__event__List" id="toppage__contents__event__List">
+                    <div class="event__cards">
+                        <div class="event__card event__card1"><a href="">
+                                <img class="event-picture" src="image/common/test01.png"
+                                    alt="Grapefruit slice atop a pile of other slices">
+                                キャンペーン1
+                            </a>
+                        </div>
+
+                        <div class="event__card event__card2"><a href="">
+                                <img class="event-picture" src="image/common/test01.png"
+                                    alt="Grapefruit slice atop a pile of other slices">
+                                キャンペーン2
+                            </a>
+                        </div>
+
+                        <div class="event__card event__card2"><a href="">
+                                <img class="event-picture" src="image/common/test01.png"
+                                    alt="Grapefruit slice atop a pile of other slices">
+                                キャンペーン3
+                            </a>
+                        </div>
+
+                        <div class="event__card event__card2"><a href="">
+                                <img class="event-picture" src="image/common/test01.png"
+                                    alt="Grapefruit slice atop a pile of other slices">
+                                キャンペーン4
+                            </a>
+                        </div>
+
+                        <div class="event__card event__card2"><a href="">
+                                <img class="event-picture" src="image/common/test01.png"
+                                    alt="Grapefruit slice atop a pile of other slices">
+                                キャンペーン5
+                            </a>
+                        </div>
+
+                        <div class="event__card event__card2"><a href="">
+                                <img class="event-picture" src="image/common/test01.png"
+                                    alt="Grapefruit slice atop a pile of other slices">
+                                キャンペーン6
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                予約の案内<br>
+                マップ<br>
+            </section>
+        </div>
     </div>
-
 </body>
+
+
+<!--挿入する共通クラスのロード-->
+<script>
+    $('#header').load('header.html');
+    $('#carousel_area').load('carousel_area.html');
+</script>
 
 </html>
