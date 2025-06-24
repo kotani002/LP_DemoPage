@@ -11,15 +11,18 @@
     align-items: center;
     display: flex;
     width: 100%;
-    height: 400px;
+    height: auto;
     border-radius: 5px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     object-fit: cover;
+    aspect-ratio: 2 / 0.9;
 }
 
 /*カルーセルエリア内の表示画像の設定*/
 .slides {
     display: flex;
+    width: 110%;
+    height: 110%;
     transition: transform 0.5s ease;
 }
 
@@ -40,27 +43,27 @@
 }
 
 .slide1 {
-    background-image: url(../image/common/test01.png);
+    background-image: url(../image/toppage/banner/fes_banner_1.png);
 }
 
 .slide2 {
-    background-image: url(../image/common/test01.png);
+    background-image: url(../image/toppage/banner/fes_banner_1.png);
 }
 
 .slide3 {
-    background-image: url(images/news/enkouji/enkouji01.jpg);
+    background-image: url(../image/toppage/banner/fes_banner_1.png);
 }
 
 .slide4 {
-    background-image: url(images/news/toukouin/toukouin01.jpg);
+    background-image: url(../image/toppage/banner/fes_banner_1.png);
 }
 
 .slide5 {
-    background-image: url(images/news/hourenji/tokyo06.jpg);
+    background-image: url(../image/toppage/banner/fes_banner_1.png);
 }
 
 .slide6 {
-    background-image: url(images/news/kakusyouji/tokyo09.jpg);
+    background-image: url(../image/toppage/banner/fes_banner_1.png);
 }
 
 .nav-button {
@@ -106,7 +109,7 @@ input[type="radio"] {
 .bar {
     width: 10px;
     height: 10px;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     border-radius: 50%;
     cursor: pointer;
 }
@@ -143,6 +146,6 @@ input[type="radio"] {
 #slide4:checked~.navigation label[for="slide4"],
 #slide5:checked~.navigation label[for="slide5"],
 #slide6:checked~.navigation label[for="slide6"] {
-    background: rgb(252, 255, 45);
+    background: rgb(251, 255, 0);
     ;
 }
