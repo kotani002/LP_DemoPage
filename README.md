@@ -16,7 +16,3 @@ Modifier： BlockやElementのスタイル
 ・block, element, modifierが複数単語になる場合、単語と単語の間はハイフン1つで区切る
 ・ハイフン1つの場合はElementとModifierの区切りではなく、ただの単語の区切りとして使用
 
-
-
-test
-
