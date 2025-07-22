@@ -1,7 +1,6 @@
 /*カルーセルエリア全体の制御*/
 .top_carouselArea {
     justify-content: center;
-    display: flex;
 }
 
 /*カルーセルエリア*/
