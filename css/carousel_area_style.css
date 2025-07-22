@@ -65,7 +65,7 @@
     background-image: url(../image/toppage/banner/fes_banner_1.png);
 }
 
-/* 新しく追加：カルーセルコントロールの全体 */
+/* カルーセルエリア全体のコントロール*/
 .carousel-controls {
     display: flex;
     justify-content: center;
@@ -74,12 +74,23 @@
     margin-top: 10px;
 }
 
-/* 位置調整：ボタンをフロートから解除して通常配置に */
 .nav-button {
     position: static;
     transform: none;
-    padding: 10px 20px;
-    font-size: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    align-items: center;
+}
+
+.nav-button:hover{
+    background: transparent;
+}
+
+.image-filter {
+    transition: .3s;
+    filter: brightness(0) saturate(100%) invert(21%) sepia(89%) saturate(7493%) hue-rotate(358deg) brightness(108%) contrast(113%);
 }
 
 /* ナビゲーションドットの位置調整 */
@@ -90,16 +101,8 @@
     gap: 10px;
 }
 
-.nav-button.prev {
-    left: 0px;
-}
-
-.nav-button.next {
-    right: 0px;
-}
-
 .nav-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    filter: brightness(0) saturate(100%) invert(7%) sepia(98%) saturate(4316%) hue-rotate(11deg) brightness(98%) contrast(106%);
 }
 
 /* デフォルトで表示されるラジオボタンの非表示 */
@@ -113,7 +116,7 @@ input[type="radio"] {
     background: rgb(255, 255, 255);
     border-radius: 50%;
     cursor: pointer;
-    border: 1px solid rgb(255, 0, 0);  /* ← 追加：黒い縁取り */
+    border: 1px solid rgb(255, 0, 0);
 }
 
 /* クリックされたドットによってスライドの表示位置を変化させる */
@@ -148,5 +151,5 @@ input[type="radio"] {
 #slide4:checked~.navigation label[for="slide4"],
 #slide5:checked~.navigation label[for="slide5"],
 #slide6:checked~.navigation label[for="slide6"] {
-    background: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
 }
