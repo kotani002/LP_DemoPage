@@ -107,16 +107,6 @@ input[type="radio"] {
     display: none;
 }
 
-/* ナビゲーションのドット */
-.navigation {
-    position:absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 20px;
-}
-
 .bar {
     width: 10px;
     height: 10px;
