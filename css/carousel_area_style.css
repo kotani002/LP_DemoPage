@@ -106,7 +106,7 @@ input[type="radio"] {
 .bar {
     width: 10px;
     height: 10px;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     border-radius: 50%;
     cursor: pointer;
 }
@@ -143,6 +143,6 @@ input[type="radio"] {
 #slide4:checked~.navigation label[for="slide4"],
 #slide5:checked~.navigation label[for="slide5"],
 #slide6:checked~.navigation label[for="slide6"] {
-    background: rgb(173, 174, 110);
+    background: rgb(251, 255, 0);
     ;
 }
