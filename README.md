@@ -4,9 +4,9 @@
 
 BEMは以下の3つの略称。
 
-Block： 大枠となる独立した要素\n
-Element： Block中の要素\n
-Modifier： BlockやElementのスタイル\n
+Block： 大枠となる独立した要素
+Element： Block中の要素
+Modifier： BlockやElementのスタイル
 
 これらの要素を以下のルールに基づいて命名します。
 
