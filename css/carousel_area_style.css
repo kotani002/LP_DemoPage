@@ -1,6 +1,7 @@
 /*カルーセルエリア全体の制御*/
 .top_carouselArea {
     justify-content: center;
+    display: flex;
 }
 
 /*カルーセルエリア*/
@@ -96,6 +97,7 @@ input[type="radio"] {
 }
 
 /* ナビゲーションのドット */
+
 .navigation {
     position:absolute;
     bottom: 5px;
