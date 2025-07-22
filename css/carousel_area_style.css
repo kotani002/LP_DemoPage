@@ -103,6 +103,7 @@
 
 /* デフォルトで表示されるラジオボタンの非表示 */
 input[type="radio"] {
+    display: none;
 }
 
 .bar {
