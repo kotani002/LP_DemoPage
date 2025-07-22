@@ -86,6 +86,7 @@
 .navigation {
     position: static;
     transform: none;
+    display: flex;
     gap: 10px;
 }
 
