@@ -1,0 +1,93 @@
+/* style.css */
+html {
+    background-color: rgb(190, 190, 190);
+}
+
+/*リンクテキストの表示設定*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*コンテンツ全体を中央寄せに変更*/
+html,
+body,
+.content {
+    justify-content: center;
+    align-items: center;
+}
+
+/*ここでボディのboxの大きさを決める*/
+.body__wrapper {
+    width: 100%;
+    height: auto;
+    /*ヘッダーの大きさ分下げる*/
+    padding-top: 150px;
+    background-color: #4c0000;
+    padding-bottom: 5%;
+}
+
+/*メインコンテンツを入れる枠*/
+.main__contents__wrapper {
+    width: auto;
+    height: auto;
+    /*ヘッダーの大きさ分下げる*/
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+}
+
+.event__contents {
+    justify-items: center;
+}
+
+/*イベント・キャンペーンのバナー*/
+.event__contents__headline
+{
+    font-size: clamp(16px, 2.9vw, 32px);
+    color:white;
+
+}
+
+.event__contents-list
+{
+    display: flex;
+    flex-wrap:wrap;
+    width: auto;
+    height: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.event__contents__event__List {
+    width: auto;
+    height: 100%;
+    justify-content: center;
+}
+
+.event__contents-card
+{
+    display: block;
+    width: 300px;
+    height: auto;
+    background-color: rgb(76, 0, 0);
+    padding-bottom: 10px;
+    outline: 1px solid #ffffff;
+}
+
+.event-picture{
+    aspect-ratio: 1.4 / 0.9;
+    width: 300px;
+}
+
+.event__card-top_name
+{
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+    margin-left: 10px;
+}
+.event__card-top_description
+{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
