@@ -55,6 +55,7 @@ body,
     flex-wrap:wrap;
     width: auto;
     height: 100%;
+    max-width: 980px;
     justify-content: center;
     gap: 30px;
 }
