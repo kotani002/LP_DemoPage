@@ -22,7 +22,7 @@ body,
     width: 100%;
     height: auto;
     /*ヘッダーの大きさ分下げる*/
-    padding-top: 100px;
+    padding-top: 150px;
     background-color: #4c0000;
     padding-bottom: 5%;
 }
