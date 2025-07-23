@@ -86,7 +86,9 @@ body,
 
 .toppage__contents__event-button-box
 {
+
     justify-items: center;
+    justify-content: center;
 }
 
 .toppage__contents__event-button {
@@ -101,10 +103,6 @@ body,
     border-radius: 5px;
     font-size: clamp(10px, 4vw, 30px);
     font-weight: bolder;
-}
-.toppage__contents__event-button a{
-    display: block;
-    color: white;
 }
 
 /*グーグルマップ表示*/
