@@ -1,6 +1,12 @@
-/*カルーセルエリア全体の制御*/
+/* 全体レイアウト */
 .top_carouselArea {
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
 }
 
 /*カルーセルエリア*/
@@ -98,6 +104,7 @@
     position: static;
     transform: none;
     display: flex;
+    margin-top: 10px;
     gap: 10px;
 }
 
@@ -111,8 +118,8 @@ input[type="radio"] {
 }
 
 .bar {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background: rgb(255, 255, 255);
     border-radius: 50%;
     cursor: pointer;
@@ -151,5 +158,6 @@ input[type="radio"] {
 #slide4:checked~.navigation label[for="slide4"],
 #slide5:checked~.navigation label[for="slide5"],
 #slide6:checked~.navigation label[for="slide6"] {
-    background: rgb(0, 0, 0);
+    background: #ffcc00;           /* ← 選択中のドット背景色（黄色） */
+    border: 2px solid #ff6600;     /* ← 選択中の枠線色（オレンジ） */
 }

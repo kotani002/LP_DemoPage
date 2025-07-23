@@ -120,6 +120,24 @@ body,
     text-decoration: none;
     display: block;
 }
+/*言語変換用*/
+.change-language-box {
+    display: flex;
+}
+/*言語表示を変更するボタン*/
+.language-change-button {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    color:  #700000;
+    padding: 0.2rem;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    border-radius: 0.1rem;
+    font-display: center;
+}
 
 /*フッター*/
 .footer{
