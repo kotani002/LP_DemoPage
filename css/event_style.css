@@ -30,11 +30,11 @@ body,
 /*メインコンテンツを入れる枠*/
 .main__contents__wrapper {
     width: auto;
-    height: auto;
-    /*ヘッダーの大きさ分下げる*/
+    height: 100%;
     margin-left: 5%;
     margin-right: 5%;
     display: block;
+    background-color: white;
 }
 
 .event__contents {
@@ -56,13 +56,14 @@ body,
     width: auto;
     height: 100%;
     max-width: 980px;
-    justify-content: center;
+    justify-items: center;
     gap: 30px;
 }
 
-.event__contents__event__List {
+.toppage__contents__event__List {
     width: auto;
     height: 100%;
+    width: auto;
     justify-content: center;
 }
 
