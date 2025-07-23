@@ -11,24 +11,26 @@
 
 /*カルーセルエリア*/
 .carousel {
-    position: relative;
-    overflow: hidden;
-    align-items: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
     width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    object-fit: cover;
-    aspect-ratio: 2 / 0.9;
 }
 
 /*カルーセルエリア内の表示画像の設定*/
 .slides {
+    width: 100%;
     display: flex;
-    width: 110%;
-    height: 110%;
     transition: transform 0.5s ease;
+}
+/* ↓ ナビゲーション・矢印を見た目上はカルーセルの下に置く */
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 12px;
 }
 
 
@@ -151,13 +153,13 @@ input[type="radio"] {
     transform: translateX(-500%);
 }
 
-/* 選択中のドットの色を変更 */
-#slide1:checked~.navigation label[for="slide1"],
-#slide2:checked~.navigation label[for="slide2"],
-#slide3:checked~.navigation label[for="slide3"],
-#slide4:checked~.navigation label[for="slide4"],
-#slide5:checked~.navigation label[for="slide5"],
-#slide6:checked~.navigation label[for="slide6"] {
-    background: #ffcc00;           /* ← 選択中のドット背景色（黄色） */
-    border: 2px solid #ff6600;     /* ← 選択中の枠線色（オレンジ） */
+/* 選択中ドットの色変更*/
+#slide1:checked ~ .carousel-controls .navigation label[for="slide1"],
+#slide2:checked ~ .carousel-controls .navigation label[for="slide2"],
+#slide3:checked ~ .carousel-controls .navigation label[for="slide3"],
+#slide4:checked ~ .carousel-controls .navigation label[for="slide4"],
+#slide5:checked ~ .carousel-controls .navigation label[for="slide5"],
+#slide6:checked ~ .carousel-controls .navigation label[for="slide6"] {
+    background: #ffcc00;
+    border: 2px solid #ff6600;
 }
