@@ -84,7 +84,14 @@ body,
     height: auto;
 }
 
+.toppage__contents__event-button-box
+{
+    justify-items: center;
+}
+
 .toppage__contents__event-button {
+    width: auto;
+    height: auto;
     color: #ffffff;
     background-color: #700000;
     padding-top: 2%;
@@ -97,8 +104,6 @@ body,
 }
 .toppage__contents__event-button a{
     display: block;
-    width: auto;
-    height: auto;
     color: white;
 }
 
