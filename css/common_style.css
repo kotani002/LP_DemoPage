@@ -28,20 +28,21 @@ body,
 }
 
 .header__logo {
+    box-sizing: border-box;
+    width: 500px;
+    height: 125px;
     display: flex;
     padding: 10px;
     font-family:'Times New Roman', Times, serif;
 }
 
 .header__logo-picture {
-    width: 70px;
-    height: 70px;
+    width: auto;
+    height: auto;
 }
 
 .header__logo-text {
-    width: 250px;
-    height: auto;
-    font-size: clamp(40px, 1.8vw, 60px);
+    font-size: clamp(75px, 2vw, 80px);
     font-weight: bold;
     margin:5px 0px;
     left: 0;
