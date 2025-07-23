@@ -86,9 +86,8 @@ body,
 
 .toppage__contents__event-button-box
 {
-
     justify-items: center;
-    justify-content: center;
+    display: grid;
 }
 
 .toppage__contents__event-button {
