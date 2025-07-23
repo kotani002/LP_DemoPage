@@ -22,7 +22,7 @@ body,
     width: 100%;
     height: auto;
     /*ヘッダーの大きさ分下げる*/
-    padding-top: 150px;
+    padding-top: 100px;
     background-color: #4c0000;
     padding-bottom: 5%;
 }
@@ -30,10 +30,9 @@ body,
 /*メインコンテンツを入れる枠*/
 .main__contents__wrapper {
     width: auto;
-    height: 100%;
+    height: auto;
     margin-left: 5%;
     margin-right: 5%;
-    display: block;
     background-color: white;
 }
 
