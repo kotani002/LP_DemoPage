@@ -1,0 +1,93 @@
+/* style.css */
+html {
+    background-color: rgb(190, 190, 190);
+}
+
+/*リンクテキストの表示設定*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*コンテンツ全体を中央寄せに変更*/
+html,
+body,
+.content {
+    justify-content: center;
+    align-items: center;
+}
+
+/*ここでボディのboxの大きさを決める*/
+.body__wrapper {
+    width: 100%;
+    height: auto;
+    /*ヘッダーの大きさ分下げる*/
+    background: linear-gradient(#4c0000, #640000);
+
+}
+
+/*メインコンテンツを入れる枠*/
+.main__contents__wrapper {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 150px;
+    background-color: rgb(252, 255, 213);
+    /*バックグラウンドが白単色に見えているので*/
+}
+
+.info__contents {
+    justify-items: center;
+    padding-bottom: 1000px;
+}
+
+/*イベント・キャンペーンのバナー*/
+.info__contents__headline {
+    font-size: clamp(16px, 2.9vw, 32px);
+    color: rgb(145, 0, 0);
+
+}
+
+.info__contents-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.toppage__contents__info__List {
+    width: auto;
+    height: 100%;
+    width: auto;
+    justify-content: center;
+}
+
+.info__contents-card {
+    display: block;
+    width: 300px;
+    height: auto;
+    background: linear-gradient(#8a0000, #440000);
+    padding-bottom: 10px;
+    padding: 10px;
+    border-radius: 2.5%;
+}
+
+.info-picture {
+    aspect-ratio: 16 / 9;
+    border-radius: 2.5%;
+    outline: 2px solid rgba(0, 0, 0, 0.137);
+}
+
+.info__card-top_name {
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.info__card-top_description {
+    color: rgb(253, 255, 236);
+    margin: 10px;
+}

@@ -84,6 +84,15 @@ body,
     height: auto;
 }
 
+/*unityのビルドデータをiframeで表示させる*/
+.unity__build__data {
+    aspect-ratio: 16 / 9;
+    width: auto;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .toppage__contents__event-button-box
 {
     justify-items: center;
