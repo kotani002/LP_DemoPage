@@ -124,7 +124,7 @@ input[type="radio"] {
 .bar {
     width: 15px;
     height: 15px;
-    background: rgb(255, 255, 255);
+    background:rgb(253, 255, 236);
     border-radius: 50%;
     cursor: pointer;
     border: 1px solid rgb(255, 0, 0);
@@ -162,6 +162,6 @@ input[type="radio"] {
 #slide4:checked ~ .carousel-controls .navigation label[for="slide4"],
 #slide5:checked ~ .carousel-controls .navigation label[for="slide5"],
 #slide6:checked ~ .carousel-controls .navigation label[for="slide6"] {
-    background: #ffcc00;
+    background: linear-gradient(#ffcc00,#ffbb00);
     border: 1px solid #ff6600;
 }

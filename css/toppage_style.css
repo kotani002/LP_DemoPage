@@ -23,7 +23,7 @@ body,
     height: auto;
     /*ヘッダーの大きさ分下げる*/
     padding-top: 150px;
-    background-color: #4c0000;
+    background: linear-gradient(#4c0000,#640000);
     padding-bottom: 5%;
 }
 
@@ -34,7 +34,7 @@ body,
     /*ヘッダーの大きさ分下げる*/
     margin-left: 5%;
     margin-right: 5%;
-    background-color: white;
+    background-color: rgb(252, 255, 213);
 }
 
 .toppage__contents {
