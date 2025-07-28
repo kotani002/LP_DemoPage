@@ -31,15 +31,14 @@ body,
     .header__logo-text {
         display:flex;
         flex-direction: column;
-
     }
     .header__logo-text-up
     {
-        font-size: 50px;
+        font-size: 45px;
     }
     .header__logo-text-down
     {
-        font-size: 50px;
+        font-size: 45px;
     }
 }
 
