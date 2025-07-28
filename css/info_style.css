@@ -15,6 +15,7 @@ body,
 .content {
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /*ここでボディのboxの大きさを決める*/
