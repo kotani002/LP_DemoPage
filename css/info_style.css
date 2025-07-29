@@ -15,7 +15,6 @@ body,
 .content {
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 /*ここでボディのboxの大きさを決める*/
@@ -24,7 +23,7 @@ body,
     height: auto;
     /*ヘッダーの大きさ分下げる*/
     background: linear-gradient(#4c0000, #640000);
-
+    text-align: center;
 }
 
 /*メインコンテンツを入れる枠*/
@@ -40,7 +39,7 @@ body,
 
 .info__contents {
     justify-items: center;
-    padding-bottom: 1000px;
+    padding-bottom: 100px;
 }
 
 /*イベント・キャンペーンのバナー*/
@@ -118,4 +117,13 @@ table tr:nth-child(odd) {
 
 td {
     border-bottom: 2px solid #567ca8;
+}
+
+/*電話番号、メールアドレス*/
+.info__contents__tell{
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
 }
