@@ -11,7 +11,7 @@ const translations = {
         menu__info:"お見積り・お問い合わせ",
 
         /*コンテンツ内容*/
-        toppage__contents__headlineText:"<h1>イベント・キャンペーン</h1>",
+        toppage__contents__headline:"<h1>イベント・キャンペーン</h1>",
         event__card1:"▷　最新メニュー公開中！<br>　　　最新メニューはこちらから！",
         event__card2:"▷　大盛り無料キャンペーン<br>　　　大人気メニューのアヒル餃子が今だけ無料！",
         event__card3:"▷　ランチ限定！特別メニュー！<br>　　　大人気！餃子定食がランチ限定で500円！",
@@ -28,7 +28,7 @@ const translations = {
         menu__event:"enメニュー",
         menu__info:"enお見積り・お問い合わせ",
 
-        toppage__contents__headlineText:"<h1>enイベント・キャンペーン</h1>",
+        toppage__contents__headline:"<h1>enイベント・キャンペーン</h1>",
         event__card1:"▷　最新メニュー公開中！<br>　　　最新メニューはこちらから！",
         event__card2:"▷　大盛り無料キャンペーン<br>　　　大人気メニューのアヒル餃子が今だけ無料！",
         event__card3:"▷　ランチ限定！特別メニュー！<br>　　　大人気！餃子定食がランチ限定で500円！",
@@ -45,7 +45,7 @@ const translations = {
         menu__event:"zhメニュー",
         menu__info:"zhお見積り・お問い合わせ",
         
-        toppage__contents__headlineText:"<h1>zhイベント・キャンペーン</h1>",
+        toppage__contents__headline:"<h1>zhイベント・キャンペーン</h1>",
         event__card1:"▷　最新メニュー公開中！<br>　　　最新メニューはこちらから！",
         event__card2:"▷　大盛り無料キャンペーン<br>　　　大人気メニューのアヒル餃子が今だけ無料！",
         event__card3:"▷　ランチ限定！特別メニュー！<br>　　　大人気！餃子定食がランチ限定で500円！",
@@ -67,7 +67,7 @@ function changeLanguage(lang) {
     document.getElementById("menu__info").innerHTML = t.menu__info;
 
     /*引数で取得した言語に各ページの内容を切り替える*/
-    document.getElementById("toppage__contents__headlineText").innerHTML = t.toppage__contents__headlineText;
+    document.getElementById("toppage__contents__headline").innerHTML = t.toppage__contents__headline;
     document.getElementById("event__card1").innerHTML = t.event__card1;
     document.getElementById("event__card2").innerHTML = t.event__card2;
     document.getElementById("event__card3").innerHTML = t.event__card3;
@@ -77,6 +77,8 @@ function changeLanguage(lang) {
     document.getElementById("toppage__map").innerHTML = t.toppage__map;
     document.getElementById("toppage__info").innerHTML = t.toppage__info;
     
+    consol.log(location.hash);
+
     /*同じセッション中は言語を統一させたいのでセッションストレージにデータを保存 */
     value = String(lang);
     sessionStorage.setItem('SelectLanguage', value);
