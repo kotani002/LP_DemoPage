@@ -58,7 +58,8 @@ const translations = {
         info__contents__table__horizontal5__top__1: "",
         info__contents__table__horizontal5__top__2: "サイトのお問い合わせ機能<br>(メール機能)",
         info__contents__table__horizontal5__top__3: "10,000円～",
-        info__contents__tell: "TEL : 080-8407-0897<br>MAIL : assgod848(a)little-emperor.com<br>↑スパム対策のため、(a)を＠に変えてください",
+        info__contents__tell: "TEL : 080-8407-0897",
+        info__contents__mail: "MAIL : assgod848(a)little-emperor.com<br>↑スパム対策のため、(a)を＠に変えてください",
     },
     /*英語のローカライズ用データ*/
     en: {
@@ -117,7 +118,8 @@ const translations = {
         info__contents__table__horizontal5__top__1: "",
         info__contents__table__horizontal5__top__2: "Contact Feature on the Website",
         info__contents__table__horizontal5__top__3: "From ¥10,000 (JPY)",
-        info__contents__tell: "TEL : 080-8407-0897<br>MAIL : assgod848(a)little-emperor.com<br>↑To prevent spam, please replace (a) with @",
+        info__contents__tell: "TEL : 080-8407-0897",
+        info__contents__mail: "MAIL : assgod848(a)little-emperor.com<br>↑To prevent spam, please replace (a) with @",
     },
     /*中国語のローカライズ用データ*/
     zh: {
@@ -177,7 +179,8 @@ const translations = {
         info__contents__table__horizontal5__top__2: "网站联系功能",
         info__contents__table__horizontal5__top__3: "¥10,000 起（日元）",
 
-        info__contents__tell: "电话 : 080-8407-0897<br>电子邮件 : assgod848(a)little-emperor.com<br>↑为防止垃圾邮件，请将 (a) 替换为 @",
+        info__contents__tell: "电话 : 080-8407-0897",
+        info__contents__mail: "电子邮件 : assgod848(a)little-emperor.com<br>↑为防止垃圾邮件，请将 (a) 替换为 @",
     }
 };
 
@@ -251,6 +254,7 @@ function changeLanguage(lang) {
             document.getElementById("info__contents__table__horizontal5__3").innerText = t.info__contents__table__horizontal5__top__3;
 
             document.getElementById("info__contents__tell").innerHTML = t.info__contents__tell;
+            document.getElementById("info__contents__mail").innerHTML = t.info__contents__mail;
             break;
     }
 

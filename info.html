@@ -31,41 +31,79 @@
                 <div class="info__contents__headline" id="info__contents__headline">
                     <h1>お見積り・お問い合わせ</h1>
                 </div>
-                <table>
-                    <tr>
-                        <th id="info__contents__table__horizontal__top__1">職種</th>
-                        <th id="info__contents__table__horizontal__top__2">摘要</th>
-                        <th id="info__contents__table__horizontal__top__3">費用</th>
-                    </tr>
-                    <tr>
-                        <td id="info__contents__table__horizontal1__1">【デザイン費用】</td>
-                        <td id="info__contents__table__horizontal1__2">トップページデザイン</td>
-                        <td id="info__contents__table__horizontal1__3">55,500円～</td>
-                    </tr>
-                    <tr>
-                        <td id="info__contents__table__horizontal2__1"></td>
-                        <td id="info__contents__table__horizontal2__2">下層ページデザイン</td>
-                        <td id="info__contents__table__horizontal2__3">40,000円～</td>
-                    </tr>
-                    <tr>
-                        <td id="info__contents__table__horizontal3__1">【システム構築費用】</td>
-                        <td id="info__contents__table__horizontal3__2">トップページのコーディング</td>
-                        <td id="info__contents__table__horizontal3__3">25,500円～</td>
-                    </tr>
-                    <tr>
-                        <td id="info__contents__table__horizontal4__1"></td>
-                        <td id="info__contents__table__horizontal4__2">下層ページのコーディング</td>
-                        <td id="info__contents__table__horizontal4__3">5,000円～</td>
-                    </tr>
-                    <tr>
-                        <td id="info__contents__table__horizontal5__1"></td>
-                        <td id="info__contents__table__horizontal5__2">サイトのお問い合わせ機能<br>(メール機能)</td>
-                        <td id="info__contents__table__horizontal5__3">10,000円～</td>
-                    </tr>
-                </table>
-                <div class="info__contents__tell" id="info__contents__tell">
-                    TEL : 080-8407-0897<br>MAIL : assgod848(a)little-emperor.com<br>↑スパム対策のため、(a)を＠に変えてください
+                <div class="border_rounded">
+                    <table>
+                        <tr>
+                            <th id="info__contents__table__horizontal__top__1">職種</th>
+                            <th id="info__contents__table__horizontal__top__2">摘要</th>
+                            <th id="info__contents__table__horizontal__top__3">費用</th>
+                        </tr>
+                        <tr>
+                            <td id="info__contents__table__horizontal1__1">【デザイン費用】</td>
+                            <td id="info__contents__table__horizontal1__2">トップページデザイン</td>
+                            <td id="info__contents__table__horizontal1__3">55,500円～</td>
+                        </tr>
+                        <tr>
+                            <td id="info__contents__table__horizontal2__1"></td>
+                            <td id="info__contents__table__horizontal2__2">下層ページデザイン</td>
+                            <td id="info__contents__table__horizontal2__3">40,000円～</td>
+                        </tr>
+                        <tr>
+                            <td id="info__contents__table__horizontal3__1">【システム構築費用】</td>
+                            <td id="info__contents__table__horizontal3__2">トップページのコーディング</td>
+                            <td id="info__contents__table__horizontal3__3">25,500円～</td>
+                        </tr>
+                        <tr>
+                            <td id="info__contents__table__horizontal4__1"></td>
+                            <td id="info__contents__table__horizontal4__2">下層ページのコーディング</td>
+                            <td id="info__contents__table__horizontal4__3">5,000円～</td>
+                        </tr>
+                        <tr>
+                            <td id="info__contents__table__horizontal5__1"></td>
+                            <td id="info__contents__table__horizontal5__2">サイトのお問い合わせ機能<br>(メール機能)</td>
+                            <td id="info__contents__table__horizontal5__3">10,000円～</td>
+                        </tr>
+                    </table>
                 </div>
+                <a href="./index.html" id="telLinkNumber">
+                    <div class="info__contents__tell" id="info__contents__tell" href="css/info_style.css">
+                        TEL : 080-8407-0897
+                    </div>
+                </a>
+                <!--ここのJSで端末を判断する-->
+                <script>
+                    if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPad') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+                        Replace();
+                    }
+
+                    function Replace() {
+                        let telLinkNumber = document.getElementById("telLinkNumber");
+                        let telNumber = "tel:080-8407-0897";
+
+                        //href属性の値を書き換える
+                        telLinkNumber.setAttribute('href', telNumber);
+                    }
+                </script>
+
+                <a href="mailto:0120donguri@gmail.com?subject=テストメール" id="mailLinkNumber">
+                    <div class="info__contents__mail" id="info__contents__mail">
+                        MAIL : assgod848(a)little-emperor.com<br>↑スパム対策のため、(a)を＠に変えてください
+                    </div>
+                </a>
+
+                <script>
+                    if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPad') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+                        Replace();
+                    }
+
+                    function Replace() {
+                        let telLinkNumber = document.getElementById("mailLinkNumber");
+                        let telNumber = "mailto:0120donguri@gmail.com?subject=テストメール";
+
+                        //href属性の値を書き換える
+                        telLinkNumber.setAttribute('href', telNumber);
+                    }
+                </script>
             </div>
         </div>
     </div>
