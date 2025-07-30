@@ -95,7 +95,7 @@ const translations = {
         event__card6__description: "¥1,280 (Tax Included   ¥1,408)<br>A unique sweet and sour pork dish secretly mixed with several duck toys. A playful stir-fry that brings surprise and smiles.",
 
         /*お見積りページの作成*/
-        info__contents__headline: "Quote & Contact",
+        info__contents__headline: "<h1>Quote & Contact</h1>",
         info__contents__table__horizontal__top__1: "Job Type",
         info__contents__table__horizontal__top__2: "Summary",
         info__contents__table__horizontal__top__3: "Cost/Fee",
@@ -155,7 +155,7 @@ const translations = {
         event__card6__description: "¥1,280 (含税 ¥1,408)<br>　这道酸甜咕噜肉中悄悄混入了几只鸭子玩具，是一道充满趣味、带来惊喜和欢笑的独特炒菜。",
 
         /*お見積りページの作成*/
-        info__contents__headline: "报价与咨询",
+        info__contents__headline: "<h1>报价与咨询</h1>",
         info__contents__table__horizontal__top__1: "职位类型",
         info__contents__table__horizontal__top__2: "摘要",
         info__contents__table__horizontal__top__3: "费用",
