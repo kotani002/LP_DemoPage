@@ -14,7 +14,6 @@ const translations = {
         event__card2: "▷　大盛り無料キャンペーン<br>　　　大人気メニューのアヒル餃子が今だけ無料！",
         event__card3: "▷　ランチ限定！特別メニュー！<br>　　　大人気！ダック定食がランチ限定で500円！",
         event__card4: "▷　期間限定！ふわとろダックまん！<br>　　　ほかほかの肉まんの中には、ぎっしりとアヒル肉が詰まってます！",
-        event__card5: "▷　団体予約の申し込みはこちら<br>　　　１０ ～ ５万人まで可能！<br>　団体予約の申し込みはこちらから！",
         event__card6: "▷　Webページ制作でお困りの方へ<br>　　　Webページ制作のお見積りはこちらから！",
         toppage__map: "<h1>マップ</h1>",
         toppage__info: "お見積り・お問い合わせはこちら",
@@ -74,7 +73,6 @@ const translations = {
         event__card2: "▷　Free Large Portion Campaign!<br>Our popular Duck Dumplings are free for a limited time!",
         event__card3: "▷　Lunch Only!Special Menu!<br>Duck Set Meal Only 500 Yen for Lunch!",
         event__card4: "▷　Limited Time Only! Fluffy & Melty Duck Buns!<br>Inside the steaming hot bun is a generous filling of duck meat!",
-        event__card5: "▷　Group Reservation Application Here<br>Apply for Group Reservations Here!",
         event__card6: "▷　For Those Having Trouble with Website Creation.Request a Website Creation Quote Here!",
         toppage__map: "<h1>MAP</h1>",
         toppage__info: "Quote & Contact Us Here",
@@ -134,7 +132,6 @@ const translations = {
         event__card2: "▷　免费加大份量活动<br>人气菜单中的鸭肉饺子限时免费！",
         event__card3: "▷　午餐限定！特别菜单！<br>人气推荐！午餐限定！鸭肉定食仅售500日元！",
         event__card4: "▷　限时供应！松软香滑的鸭肉包！<br>热腾腾的包子里塞满了鲜美的鸭肉！",
-        event__card5: "▷　团体预订申请请点击这里<br>请从这里申请团体预订！",
         event__card6: "▷　对于网页制作遇到困难的您<br>请从这里申请网页制作报价！",
         toppage__map: "<h1>地图</h1>",
         toppage__info: "报价与咨询请点击这里",
@@ -204,7 +201,6 @@ function changeLanguage(lang) {
             document.getElementById("event__card2").innerHTML = t.event__card2;
             document.getElementById("event__card3").innerHTML = t.event__card3;
             document.getElementById("event__card4").innerHTML = t.event__card4;
-            document.getElementById("event__card5").innerHTML = t.event__card5;
             document.getElementById("event__card6").innerHTML = t.event__card6;
             document.getElementById("toppage__map").innerHTML = t.toppage__map;
             document.getElementById("toppage__info").innerHTML = t.toppage__info;
