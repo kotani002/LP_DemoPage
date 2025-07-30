@@ -196,7 +196,7 @@ function changeLanguage(lang) {
     console.log(location.pathname);
     /*クリックされた時に指定のパスだった場合はページの言語を変更する*/
     switch (location.pathname) {
-        case "LP_DemoPage/":
+        case "/LP_DemoPage/":
         case "/LP_DemoPage/index.html":
         case "/index.html":
             document.getElementById("toppage__contents__headline").innerHTML = t.toppage__contents__headline;
