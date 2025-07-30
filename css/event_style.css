@@ -43,9 +43,9 @@ body,
 
 /*イベント・キャンペーンのバナー*/
 .event__contents__headline {
-    font-size: clamp(16px, 2.9vw, 32px);
+    font-size: clamp(20px, 2.9vw, 32px);
     color: rgb(145, 0, 0);
-
+    margin-top: 5%;
 }
 
 .event__contents-list {
@@ -89,11 +89,12 @@ body,
 .event__card-top_name {
     color: rgb(238, 255, 0);
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .event__card-top_description {
     color: rgb(253, 255, 236);
     margin: 10px;
     overflow-wrap: normal;
+    font-size: 1.3rem;
 }

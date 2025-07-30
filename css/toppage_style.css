@@ -45,7 +45,7 @@ body,
 /*イベント・キャンペーンのバナー*/
 .toppage__contents__headline
 {
-    font-size: clamp(16px, 2.9vw, 32px);
+    font-size: clamp(17px, 2.9vw, 32px);
     margin-bottom: 5%;
 }
 
@@ -75,7 +75,7 @@ body,
 
 .event__card-text {
     margin-left: 1.5%;
-    font-size: clamp(15px, 1.6vw, 32px);
+    font-size: clamp(16px, 1.6vw, 32px);
     font-weight: bold;
 }
 

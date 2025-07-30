@@ -97,7 +97,7 @@ const translations = {
         info__contents__headline: "<h1>Quote & Contact</h1>",
         info__contents__table__horizontal__top__1: "Job Type",
         info__contents__table__horizontal__top__2: "Summary",
-        info__contents__table__horizontal__top__3: "Cost/Fee",
+        info__contents__table__horizontal__top__3: "Cost",
 
         info__contents__table__horizontal1__top__1: "【Design Cost】",
         info__contents__table__horizontal1__top__2: "Top Page Design",
