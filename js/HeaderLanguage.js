@@ -35,14 +35,31 @@ const translations = {
         event__card6__description: "¥1,280 (税込 ¥1,408)<br>　甘酸っぱい酢豚の中に、こっそりと複数のアヒルおもちゃが混ざり込んだユニークな一皿。驚きと笑顔を呼ぶ遊び心満点の炒め物です。",
 
         /*お見積りページの作成*/
-        info__contents__headline:"zhお見積り・お問い合わせ",
-        info__contents__table__horizontal__top:"<th>職種</th><th>摘要</th><th>費用</th>",
-        info__contents__table__horizontal1:"<td>【デザイン費用】</td><td>トップページデザイン</td><td>55,500円～</td>",
-        info__contents__table__horizontal2:"<td></td><td>下層ページデザイン</td><td>40,000円～</td>",
-        info__contents__table__horizontal3:"<td>【システム構築費用】</td><td>トップページのコーディング</td><td>25,500円～</td>",
-        info__contents__table__horizontal4:"<td></td><td>下層ページのコーディング</td><td>5,000円～</td>",
-        info__contents__table__horizontal5:"<td></td><td>サイトのお問い合わせ機能<br>(メール機能)</td><td>10,000円～</td>",
-        info__contents__tell:"TEL : 080-8407-0897<br>MAIL : assgod848(a)little-emperor.com<br>↑スパム対策のため、(a)を＠に変えてください",
+        info__contents__headline: "<h1>お見積り・お問い合わせ</h1>",
+        info__contents__table__horizontal__top__1: "職種",
+        info__contents__table__horizontal__top__2: "摘要",
+        info__contents__table__horizontal__top__3: "費用",
+
+        info__contents__table__horizontal1__top__1: "【デザイン費用】",
+        info__contents__table__horizontal1__top__2: "トップページデザイン",
+        info__contents__table__horizontal1__top__3: "55,500円～",
+
+        info__contents__table__horizontal2__top__1: "",
+        info__contents__table__horizontal2__top__2: "下層ページデザイン",
+        info__contents__table__horizontal2__top__3: "40,000円～",
+
+        info__contents__table__horizontal3__top__1: "【システム構築費用】",
+        info__contents__table__horizontal3__top__2: "トップページのコーディング",
+        info__contents__table__horizontal3__top__3: "25,500円～",
+
+        info__contents__table__horizontal4__top__1: "",
+        info__contents__table__horizontal4__top__2: "下層ページのコーディング",
+        info__contents__table__horizontal4__top__3: "5,000円～",
+
+        info__contents__table__horizontal5__top__1: "",
+        info__contents__table__horizontal5__top__2: "サイトのお問い合わせ機能<br>(メール機能)",
+        info__contents__table__horizontal5__top__3: "10,000円～",
+        info__contents__tell: "TEL : 080-8407-0897<br>MAIL : assgod848(a)little-emperor.com<br>↑スパム対策のため、(a)を＠に変えてください",
     },
     /*英語のローカライズ用データ*/
     en: {
@@ -78,31 +95,31 @@ const translations = {
         event__card6__description: "¥1,280 (Tax Included   ¥1,408)<br>A unique sweet and sour pork dish secretly mixed with several duck toys. A playful stir-fry that brings surprise and smiles.",
 
         /*お見積りページの作成*/
-        info__contents__headline:"Quote & Contact",
-        info__contents__table__horizontal__top__1:"Job Type",
-        info__contents__table__horizontal__top__2:"Summary",
-        info__contents__table__horizontal__top__3:"Cost/Fee",
+        info__contents__headline: "Quote & Contact",
+        info__contents__table__horizontal__top__1: "Job Type",
+        info__contents__table__horizontal__top__2: "Summary",
+        info__contents__table__horizontal__top__3: "Cost/Fee",
 
-        info__contents__table__horizontal1__top__1:"【Design Cost】",
-        info__contents__table__horizontal1__top__2:"Top Page Design",
-        info__contents__table__horizontal1__top__3:"From ¥55,500 (JPY)",
+        info__contents__table__horizontal1__top__1: "【Design Cost】",
+        info__contents__table__horizontal1__top__2: "Top Page Design",
+        info__contents__table__horizontal1__top__3: "From ¥55,500 (JPY)",
 
-        info__contents__table__horizontal2__top__1:"",
-        info__contents__table__horizontal2__top__2:"Inner Page Design",
-        info__contents__table__horizontal2__top__3:"From ¥40,000 (JPY)",
+        info__contents__table__horizontal2__top__1: "",
+        info__contents__table__horizontal2__top__2: "Inner Page Design",
+        info__contents__table__horizontal2__top__3: "From ¥40,000 (JPY)",
 
-        info__contents__table__horizontal3__top__1:"【System Development Cost】",
-        info__contents__table__horizontal3__top__2:"Top Page Coding",
-        info__contents__table__horizontal3__top__3:"From ¥25,500 (JPY)",
+        info__contents__table__horizontal3__top__1: "【System Development Cost】",
+        info__contents__table__horizontal3__top__2: "Top Page Coding",
+        info__contents__table__horizontal3__top__3: "From ¥25,500 (JPY)",
 
-        info__contents__table__horizontal4__top__1:"",
-        info__contents__table__horizontal4__top__2:"Inner Page Coding",
-        info__contents__table__horizontal4__top__3:"From ¥5,000 (JPY)",
+        info__contents__table__horizontal4__top__1: "",
+        info__contents__table__horizontal4__top__2: "Inner Page Coding",
+        info__contents__table__horizontal4__top__3: "From ¥5,000 (JPY)",
 
-        info__contents__table__horizontal5__top__1:"",
-        info__contents__table__horizontal5__top__2:"Contact Feature on the Website",
-        info__contents__table__horizontal5__top__3:"From ¥10,000 (JPY)",
-        info__contents__tell:"TEL : 080-8407-0897<br>MAIL : assgod848(a)little-emperor.com<br>↑To prevent spam, please replace (a) with @",
+        info__contents__table__horizontal5__top__1: "",
+        info__contents__table__horizontal5__top__2: "Contact Feature on the Website",
+        info__contents__table__horizontal5__top__3: "From ¥10,000 (JPY)",
+        info__contents__tell: "TEL : 080-8407-0897<br>MAIL : assgod848(a)little-emperor.com<br>↑To prevent spam, please replace (a) with @",
     },
     /*中国語のローカライズ用データ*/
     zh: {
@@ -138,32 +155,32 @@ const translations = {
         event__card6__description: "¥1,280 (含税 ¥1,408)<br>　这道酸甜咕噜肉中悄悄混入了几只鸭子玩具，是一道充满趣味、带来惊喜和欢笑的独特炒菜。",
 
         /*お見積りページの作成*/
-        info__contents__headline:"报价与咨询",
-        info__contents__table__horizontal__top__1:"职位类型",
-        info__contents__table__horizontal__top__2:"摘要",
-        info__contents__table__horizontal__top__3:"费用",
+        info__contents__headline: "报价与咨询",
+        info__contents__table__horizontal__top__1: "职位类型",
+        info__contents__table__horizontal__top__2: "摘要",
+        info__contents__table__horizontal__top__3: "费用",
 
-        info__contents__table__horizontal1__top__1:"【设计费用】",
-        info__contents__table__horizontal1__top__2:"首页设计",
-        info__contents__table__horizontal1__top__3:"¥55,500 起（日元）",
+        info__contents__table__horizontal1__top__1: "【设计费用】",
+        info__contents__table__horizontal1__top__2: "首页设计",
+        info__contents__table__horizontal1__top__3: "¥55,500 起（日元）",
 
-        info__contents__table__horizontal2__top__1:"",
-        info__contents__table__horizontal2__top__2:"内页设计",
-        info__contents__table__horizontal2__top__3:"¥40,000 起（日元）",
+        info__contents__table__horizontal2__top__1: "",
+        info__contents__table__horizontal2__top__2: "内页设计",
+        info__contents__table__horizontal2__top__3: "¥40,000 起（日元）",
 
-        info__contents__table__horizontal3__top__1:"【系统构建费用】",
-        info__contents__table__horizontal3__top__2:"首页编码",
-        info__contents__table__horizontal3__top__3:"¥25,500 起（日元）",
+        info__contents__table__horizontal3__top__1: "【系统构建费用】",
+        info__contents__table__horizontal3__top__2: "首页编码",
+        info__contents__table__horizontal3__top__3: "¥25,500 起（日元）",
 
-        info__contents__table__horizontal4__top__1:"",
-        info__contents__table__horizontal4__top__2:"内页编码",
-        info__contents__table__horizontal4__top__3:"¥5,000 起（日元）",
+        info__contents__table__horizontal4__top__1: "",
+        info__contents__table__horizontal4__top__2: "内页编码",
+        info__contents__table__horizontal4__top__3: "¥5,000 起（日元）",
 
-        info__contents__table__horizontal5__top__1:"",
-        info__contents__table__horizontal5__top__2:"网站联系功能",
-        info__contents__table__horizontal5__top__3:"¥10,000 起（日元）",
-        
-        info__contents__tell:"电话 : 080-8407-0897<br>电子邮件 : assgod848(a)little-emperor.com<br>↑为防止垃圾邮件，请将 (a) 替换为 @",
+        info__contents__table__horizontal5__top__1: "",
+        info__contents__table__horizontal5__top__2: "网站联系功能",
+        info__contents__table__horizontal5__top__3: "¥10,000 起（日元）",
+
+        info__contents__tell: "电话 : 080-8407-0897<br>电子邮件 : assgod848(a)little-emperor.com<br>↑为防止垃圾邮件，请将 (a) 替换为 @",
     }
 };
 
@@ -179,8 +196,9 @@ function changeLanguage(lang) {
     console.log(location.pathname);
     /*クリックされた時に指定のパスだった場合はページの言語を変更する*/
     switch (location.pathname) {
-        case "/LP_DemoPage/":
+        case "LP_DemoPage/":
         case "/LP_DemoPage/index.html":
+        case "/index.html":
             document.getElementById("toppage__contents__headline").innerHTML = t.toppage__contents__headline;
             document.getElementById("event__card1").innerHTML = t.event__card1;
             document.getElementById("event__card2").innerHTML = t.event__card2;
@@ -190,9 +208,10 @@ function changeLanguage(lang) {
             document.getElementById("event__card6").innerHTML = t.event__card6;
             document.getElementById("toppage__map").innerHTML = t.toppage__map;
             document.getElementById("toppage__info").innerHTML = t.toppage__info;
-        break;
+            break;
 
         case "/LP_DemoPage/event.html":
+        case "/event.html":
             document.getElementById("event__contents__headline").innerHTML = t.event__contents__headline;
             document.getElementById("event__card1__name").innerHTML = t.event__card1__name;
             document.getElementById("event__card1__description").innerHTML = t.event__card1__description;
@@ -206,18 +225,36 @@ function changeLanguage(lang) {
             document.getElementById("event__card5__description").innerHTML = t.event__card5__description;
             document.getElementById("event__card6__name").innerHTML = t.event__card6__name;
             document.getElementById("event__card6__description").innerHTML = t.event__card6__description;
-        break;
+            break;
 
         case "/LP_DemoPage/info.html":
+        case "/info.html":
             document.getElementById("info__contents__headline").innerHTML = t.info__contents__headline;
-            document.getElementById("info__contents__table__horizontal__top").innerHTML = t.info__contents__table__horizontal__top;
-            document.getElementById("info__contents__table__horizontal1").innerHTML = t.info__contents__table__horizontal1;
-            document.getElementById("info__contents__table__horizontal2").innerHTML = t.info__contents__table__horizontal2;
-            document.getElementById("info__contents__table__horizontal3").innerHTML = t.info__contents__table__horizontal3;
-            document.getElementById("info__contents__table__horizontal4").innerHTML = t.info__contents__table__horizontal4;
-            document.getElementById("info__contents__table__horizontal5").innerHTML = t.info__contents__table__horizontal5;
+            document.getElementById("info__contents__table__horizontal__top__1").innerHTML = t.info__contents__table__horizontal__top__1;
+            document.getElementById("info__contents__table__horizontal__top__2").innerText = t.info__contents__table__horizontal__top__2;
+            document.getElementById("info__contents__table__horizontal__top__3").innerText = t.info__contents__table__horizontal__top__3;
+            document.getElementById("info__contents__table__horizontal1__1").innerText = t.info__contents__table__horizontal1__top__1;
+            document.getElementById("info__contents__table__horizontal1__2").innerText = t.info__contents__table__horizontal1__top__2;
+            document.getElementById("info__contents__table__horizontal1__3").innerText = t.info__contents__table__horizontal1__top__3;
+
+            document.getElementById("info__contents__table__horizontal2__1").innerText = t.info__contents__table__horizontal2__top__1;
+            document.getElementById("info__contents__table__horizontal2__2").innerText = t.info__contents__table__horizontal2__top__2;
+            document.getElementById("info__contents__table__horizontal2__3").innerText = t.info__contents__table__horizontal2__top__3;
+
+            document.getElementById("info__contents__table__horizontal3__1").innerText = t.info__contents__table__horizontal3__top__1;
+            document.getElementById("info__contents__table__horizontal3__2").innerText = t.info__contents__table__horizontal3__top__2;
+            document.getElementById("info__contents__table__horizontal3__3").innerText = t.info__contents__table__horizontal3__top__3;
+
+            document.getElementById("info__contents__table__horizontal4__1").innerText = t.info__contents__table__horizontal4__top__1;
+            document.getElementById("info__contents__table__horizontal4__2").innerText = t.info__contents__table__horizontal4__top__2;
+            document.getElementById("info__contents__table__horizontal4__3").innerText = t.info__contents__table__horizontal4__top__3;
+
+            document.getElementById("info__contents__table__horizontal5__1").innerText = t.info__contents__table__horizontal5__top__1;
+            document.getElementById("info__contents__table__horizontal5__2").innerText = t.info__contents__table__horizontal5__top__2;
+            document.getElementById("info__contents__table__horizontal5__3").innerText = t.info__contents__table__horizontal5__top__3;
+
             document.getElementById("info__contents__tell").innerHTML = t.info__contents__tell;
-        break;
+            break;
     }
 
     //現在選択した言語をセッションストレージに保管

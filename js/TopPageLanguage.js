@@ -50,7 +50,6 @@ const translations = {
 function changeLanguageIndex(lang) {
     const t = translations[lang];
 
-    /*引数で取得した言語に各ページの内容を切り替える*/
     document.getElementById("toppage__contents__headline").innerHTML = t.toppage__contents__headline;
     document.getElementById("event__card1").innerHTML = t.event__card1;
     document.getElementById("event__card2").innerHTML = t.event__card2;
@@ -60,22 +59,6 @@ function changeLanguageIndex(lang) {
     document.getElementById("event__card6").innerHTML = t.event__card6;
     document.getElementById("toppage__map").innerHTML = t.toppage__map;
     document.getElementById("toppage__info").innerHTML = t.toppage__info;
-
-    /*
-    document.getElementById("event__contents__headline").innerHTML = t.event__contents__headline;
-    document.getElementById("event__card1__name").innerHTML = t.event__card1__name;
-    document.getElementById("event__card1__description").innerHTML = t.event__card1__description;
-    document.getElementById("event__card2__name").innerHTML = t.event__card2__name;
-    document.getElementById("event__card2__description").innerHTML = t.event__card2__description;
-    document.getElementById("event__card3__name").innerHTML = t.event__card3__name;
-    document.getElementById("event__card3__description").innerHTML = t.event__card3__description;
-    document.getElementById("event__card4__name").innerHTML = t.event__card4__name;
-    document.getElementById("event__card4__description").innerHTML = t.event__card4__description;
-    document.getElementById("event__card5__name").innerHTML = t.event__card5__name;
-    document.getElementById("event__card5__description").innerHTML = t.event__card5__description;
-    document.getElementById("event__card6__name").innerHTML = t.event__card6__name;
-    document.getElementById("event__card6__description").innerHTML = t.event__card6__description;
-    */
 
     /*同じセッション中は言語を統一させたいのでセッションストレージにデータを保存 */
     value = String(lang);
