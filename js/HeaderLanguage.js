@@ -9,6 +9,7 @@ const translations = {
         menu__info: "お見積り・お問い合わせ",
 
         //トップページのコンテンツ内容
+        toppage__contents__headline__message:"このページは小皇帝合同会社のデモページです。<br>小皇帝飯店は実際には存在していません。",
         toppage__contents__headline: "<h1>イベント・キャンペーン</h1>",
         event__card1: "▷　最新メニュー公開中！<br>　　　最新メニューはこちらから！",
         event__card2: "▷　大盛り無料キャンペーン<br>　　　大人気メニューのアヒル餃子が今だけ無料！",
@@ -69,6 +70,7 @@ const translations = {
         menu__info: "Quote & Contact Us",
 
         //トップページのコンテンツ内容
+        toppage__contents__headline__message:"This page is a demo page by Little Emperor LLC.Little Emperor Restaurant does not actually exist.",
         toppage__contents__headline: "<h1>Events & Campaigns</h1>",
         event__card1: "▷　Our Latest Menu is Now Available!<br>Click here to view the latest menu!",
         event__card2: "▷　Free Large Portion Campaign!<br>Our popular Duck Dumplings are free for a limited time!",
@@ -129,6 +131,7 @@ const translations = {
         menu__info: "报价与咨询",
 
         //トップページコンテンツ内容
+        toppage__contents__headline__message:"本页面为小皇帝有限公司的演示页面。小皇帝饭店并非真实存在。",
         toppage__contents__headline: "<h1>活动与促销</h1>",
         event__card1: "▷　最新菜单已发布！<br>点击此处查看最新菜单！",
         event__card2: "▷　免费加大份量活动<br>人气菜单中的鸭肉饺子限时免费！",
@@ -199,6 +202,7 @@ function changeLanguage(lang) {
         case "/LP_DemoPage/":
         case "/LP_DemoPage/index.html":
         case "/index.html":
+            document.getElementById("toppage__contents__headline__message").innerHTML = t.toppage__contents__headline__message;
             document.getElementById("toppage__contents__headline").innerHTML = t.toppage__contents__headline;
             document.getElementById("event__card1").innerHTML = t.event__card1;
             document.getElementById("event__card2").innerHTML = t.event__card2;
