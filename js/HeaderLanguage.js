@@ -179,7 +179,8 @@ function changeLanguage(lang) {
     console.log(location.pathname);
     /*クリックされた時に指定のパスだった場合はページの言語を変更する*/
     switch (location.pathname) {
-        case "/index.html":
+        case "/LP_DemoPage/":
+        case "/LP_DemoPage/index.html":
             document.getElementById("toppage__contents__headline").innerHTML = t.toppage__contents__headline;
             document.getElementById("event__card1").innerHTML = t.event__card1;
             document.getElementById("event__card2").innerHTML = t.event__card2;
@@ -191,7 +192,7 @@ function changeLanguage(lang) {
             document.getElementById("toppage__info").innerHTML = t.toppage__info;
         break;
 
-        case "/event.html":
+        case "/LP_DemoPage/event.html":
             document.getElementById("event__contents__headline").innerHTML = t.event__contents__headline;
             document.getElementById("event__card1__name").innerHTML = t.event__card1__name;
             document.getElementById("event__card1__description").innerHTML = t.event__card1__description;
@@ -207,7 +208,7 @@ function changeLanguage(lang) {
             document.getElementById("event__card6__description").innerHTML = t.event__card6__description;
         break;
 
-        case "/info.html":
+        case "/LP_DemoPage/info.html":
             document.getElementById("info__contents__headline").innerHTML = t.info__contents__headline;
             document.getElementById("info__contents__table__horizontal__top").innerHTML = t.info__contents__table__horizontal__top;
             document.getElementById("info__contents__table__horizontal1").innerHTML = t.info__contents__table__horizontal1;
