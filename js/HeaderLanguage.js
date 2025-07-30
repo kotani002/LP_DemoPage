@@ -193,7 +193,6 @@ function changeLanguage(lang) {
     document.getElementById("menu__top").innerHTML = t.menu__top;
     document.getElementById("menu__event").innerHTML = t.menu__event;
     document.getElementById("menu__info").innerHTML = t.menu__info;
-    console.log(location.pathname);
     /*クリックされた時に指定のパスだった場合はページの言語を変更する*/
     switch (location.pathname) {
         case "LP_DemoPage/":
@@ -208,6 +207,7 @@ function changeLanguage(lang) {
             document.getElementById("event__card6").innerHTML = t.event__card6;
             document.getElementById("toppage__map").innerHTML = t.toppage__map;
             document.getElementById("toppage__info").innerHTML = t.toppage__info;
+            console.log(location.pathname);
             break;
 
         case "/LP_DemoPage/event.html":
