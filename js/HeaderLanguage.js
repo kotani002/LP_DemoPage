@@ -176,6 +176,7 @@ function changeLanguage(lang) {
     document.getElementById("menu__top").innerHTML = t.menu__top;
     document.getElementById("menu__event").innerHTML = t.menu__event;
     document.getElementById("menu__info").innerHTML = t.menu__info;
+    console.log(location.pathname);
     /*クリックされた時に指定のパスだった場合はページの言語を変更する*/
     switch (location.pathname) {
         case "/index.html":
