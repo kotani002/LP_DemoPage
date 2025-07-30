@@ -19,6 +19,10 @@ body,
     z-index: 10;
 }
 
+.body__wrapper {
+    text-align: center;
+}
+
 .header__wrapper {
     position: fixed;
     width: 100%;
@@ -27,18 +31,36 @@ body,
     background: linear-gradient(rgb(255, 255, 10), rgb(255, 230, 10));
 }
 
+.header__logo-text {
+    display: flex;
+    margin: 2.5% 0px;
+    margin-left: 1rem;
+    color: black;
+    letter-spacing: 0.2rem;
+    width: 250px;
+}
+
+.header__logo-picture-top {
+    height: auto;
+
+}
+
+.header__logo-picture-bottom {
+    height: auto;
+}
+
 @media screen and (max-width: 700px) {
     .header__logo-text {
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
-    .header__logo-text-up
-    {
-        font-size: 45px;
+    .header__logo-picture-top {
+        height: auto;
+        width: 150px;
     }
-    .header__logo-text-down
-    {
-        font-size: 45px;
+    .header__logo-picture-bottom {
+        height: auto;
+        width: 100px;
     }
 }
 
@@ -54,17 +76,6 @@ body,
 .header__logo-picture {
     width: auto;
     height: auto;
-}
-
-.header__logo-text {
-    display: flex;
-    font-size: 80px;
-    margin: 2.5% 0px;
-    margin-left: 1rem;
-    font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
-    font-family: "HG正楷書体-PRO";
-    color: black;
-    letter-spacing: 0.2rem
 }
 
 /*ヘッダーのハンバーガメニュー*/
