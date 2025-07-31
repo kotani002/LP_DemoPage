@@ -113,7 +113,7 @@ th {
     height: auto;
     width: auto;
     color: #ffffff;
-    background: #d45c00;
+    background: #8a0000;
 }
 
 table tr:nth-child(odd) {
@@ -121,11 +121,11 @@ table tr:nth-child(odd) {
 }
 
 td {
-    border-bottom: 2px solid #f0650f;
+    border-bottom: 2px solid #8a0000;
 }
 
 .border_rounded {
-    border: 3px solid #f0650f;
+    border: 3px solid #8a0000;
     display: inline-block;
     border-radius: 10px;
     overflow: hidden;
