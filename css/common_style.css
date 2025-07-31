@@ -110,7 +110,7 @@ body,
 .hamburger {
     position: fixed;
     margin: 20px 0px 20px 10px;
-    right: 50px;
+    right: 1.5rem;
     width: 60px;
     cursor: pointer;
 }
@@ -198,6 +198,6 @@ body,
 .language__button__list
 {
     position: fixed;
-    top: 8rem;
-    right: 50px;
+    top: 8.5rem;
+    right: 1.5rem;
 }
