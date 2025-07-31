@@ -71,7 +71,10 @@ body,
     margin-left: 1.5%;
     margin-right: 1.5%;
     text-decoration: none;
-    
+}
+
+.event__card:hover{
+    background: #0000004d;
 }
 
 .event__card-text {
@@ -117,7 +120,7 @@ body,
     width: auto;
     height: auto;
     color: #ffffff;
-    background-color: #700000;
+    background: #700000;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
@@ -127,6 +130,12 @@ body,
     font-weight: bolder;
     margin-bottom: 5%;
 }
+
+.toppage__contents__event-button:hover{
+    background: #300000;
+}
+
+
 
 /*グーグルマップ表示*/
 .toppage__contents-map {
