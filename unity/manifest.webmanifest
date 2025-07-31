@@ -3,7 +3,7 @@
     "short_name": "TombStoneDisplay",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#002504",
+    "background_color": "#8a0000",
     "theme_color": "#000",
     "description": "",
     "icons": [{

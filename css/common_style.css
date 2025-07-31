@@ -27,7 +27,7 @@ body,
 .header__wrapper {
     position: fixed;
     width: 100%;
-    height: 150px;
+    height: 180px;
     /*単色よりもグラデーションを入れた方がリッチに見える*/
     background: linear-gradient(rgb(255, 255, 10), rgb(255, 230, 10));
 }
@@ -169,14 +169,13 @@ body,
 .language-change-button {
     width: auto;
     height: auto;
-    background-color: rgb(253, 255, 236);
-    font-size: 1.3rem;
+    background: linear-gradient(rgb(255, 255, 255),rgb(243, 243, 243));
+    font-size: 1.2rem;
     font-weight: bold;
     color: #700000;
-    padding: 0.3em;
+    padding: 0.1em 0.3em 0.1em 0.3em;
     text-decoration: none;
-    margin-left: 0.5rem;
-    border-radius: 0.1rem;
+    border-radius: 5px;
     font-display: center;
 }
 
@@ -194,4 +193,11 @@ body,
     width: 100%;
     height: auto;
     max-width: clamp(50px, 150px, 200px);
+}
+
+.language__button__list
+{
+    position: fixed;
+    top: 14.5%;
+    right: 50px;
 }

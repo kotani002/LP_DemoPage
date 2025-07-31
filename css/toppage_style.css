@@ -22,7 +22,7 @@ body,
     width: 100%;
     height: auto;
     /*ヘッダーの大きさ分下げる*/
-    padding-top: 150px;
+    padding-top: 180px;
     background: linear-gradient(#4c0000,#640000);
     padding-bottom: 5%;
 }
