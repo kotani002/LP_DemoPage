@@ -177,6 +177,7 @@ body,
     text-decoration: none;
     border-radius: 10px;
     font-display: center;
+    box-shadow: 2px 2px rgba(0,0,0,0.3); /* 影の設定 */
 }
 
 /*フッター*/
