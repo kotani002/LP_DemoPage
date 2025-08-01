@@ -22,17 +22,17 @@ const translations = {
         /*イベントページのコンテンツ内容*/
         event__contents__headline: "<h1>メニュー</h1>",
         event__card1__name: "大きなアヒル型の北京ダック",
-        event__card1__description: "¥4,200 (税込 ¥4,620)<br>　見た目はなんと巨大なアヒル型！じっくり焼き上げた本格北京ダックをアヒルの形に仕上げました。遊び心満点の見た目と本格派の味わいが同居する、一度は試したい特別な一皿。",
+        event__card1__description: "¥4,200 (税込 ¥4,620)<br>　見た目はなんと巨大なアヒル型！<br>　じっくり焼き上げた本格北京ダックをアヒルの形に仕上げました。遊び心満点の見た目と本格派の味わいが同居する、一度は試したい特別な一皿。",
         event__card2__name: "ガブッとアヒル餃子 大皿盛り",
-        event__card2__description: "¥1,580 (税込 ¥1,738)<br>　ジューシーな餃子を山盛りに、大きめのアヒルおもちゃが何羽も仲良く乗った豪快な大皿。みんなでシェアして楽しいひとときを。",
+        event__card2__description: "¥1,580 (税込 ¥1,738)<br>　ジューシーな餃子を山盛りに、大きめのアヒルおもちゃが何羽も仲良く乗った豪快な大皿。<br>　みんなでシェアして楽しいひとときを。",
         event__card3__name: "スーラーダック・スープ",
         event__card3__description: "¥980 (税込 ¥1,078)<br>　ピリッと辛い酸辣湯に浮かぶアヒルの冒険。クセになる酸味とアヒルの無表情がクセになる。",
         event__card4__name: "ふわとろダックまん",
-        event__card4__description: "¥420 (税込 ¥462)<br>　ほかほかの肉まんの中には、アヒル肉をブレンドした特製フィリング入り。外見はシンプルでも、食べたらアヒルの旨みが広がる隠れた逸品。",
+        event__card4__description: "¥420 (税込 ¥462)<br>　ほかほかの肉まんの中には、アヒル肉をブレンドした特製フィリング入り。<br>　外見はシンプルでも、食べたらアヒルの旨みが広がる隠れた逸品。",
         event__card5__name: "スイミー魚の甘酢仕立て",
-        event__card5__description: "¥1,580 (税込 ¥1,738)<br>　淡白な白身魚に甘酢のアクセント。アヒルがまるで池の魚たちを見守るように添えられます。",
+        event__card5__description: "¥1,580 (税込 ¥1,738)<br>　淡白な白身魚に甘酢のアクセント。<br>　アヒルがまるで池の魚たちを見守るように添えられます。",
         event__card6__name: "クワック酢豚",
-        event__card6__description: "¥1,280 (税込 ¥1,408)<br>　甘酸っぱい酢豚の中に、こっそりと複数のアヒルおもちゃが混ざり込んだユニークな一皿。驚きと笑顔を呼ぶ遊び心満点の炒め物です。",
+        event__card6__description: "¥1,280 (税込 ¥1,408)<br>　甘酸っぱい酢豚の中に、こっそりと複数のアヒルおもちゃが混ざり込んだユニークな一皿。<br>　驚きと笑顔を呼ぶ遊び心満点の炒め物です。",
 
         /*お見積りページの作成*/
         info__contents__headline: "<h1>お見積り・お問い合わせ</h1>",
@@ -275,7 +275,7 @@ function changeLanguage(lang) {
             return;
         //中文用にfontを変更
         case "zh":
-            document.getElementById("top_main_box").style.fontFamily = 'Noto Sans SC';
+            document.getElementById("top_main_box").style.fontFamily = "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             return;
     }
 }
