@@ -112,7 +112,7 @@ th {
 th {
     height: auto;
     width: auto;
-    color: #ffffff;
+    color: #fed994;
     background: #8a0000;
 }
 
@@ -139,6 +139,11 @@ td {
     font-size: 1.6rem;
     font-weight: bold;
     margin-top: 5%;
+    border-radius: 10px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background: linear-gradient(#8a0000, #410000);
+    color: #fed994;
 }
 .info__contents__tell:hover{
     background: rgba(0, 0, 0, 0.397);
@@ -151,6 +156,11 @@ td {
     font-weight: bold;
     margin-top: 5%;
     margin-bottom: 5%;
+    border-radius: 10px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background: linear-gradient(#8a0000, #410000);
+    color: #fed994;
 }
 .info__contents__mail:hover{
     background: rgba(0, 0, 0, 0.397);

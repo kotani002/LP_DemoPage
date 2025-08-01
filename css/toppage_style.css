@@ -82,6 +82,7 @@ body,
     text-decoration: none;
     background: linear-gradient(#4c0000,#640000);
     border-radius: 10px;
+    text-align: center;
 }
 
 .event__card:hover{
@@ -92,11 +93,11 @@ body,
     margin-left: 1.5%;
     font-size: clamp(16px, 1.6vw, 32px);
     font-weight: bold;
-    color: white;
+    color: #fed994;
 }
 
 .event__card:link {
-    color: white;
+    color: #fed994;
 }
 
 .event-picture {
@@ -105,10 +106,18 @@ body,
     border-radius:10px;
 }
 
+.event-picture-bunner
+{
+    width: 100%;
+    height: auto;
+    max-width: 222px;
+    border-radius:10px;
+}
+
 /*unityのビルドデータをiframeで表示させる*/
 .unity__build__data {
-    aspect-ratio: 16 / 9;
     width: 100%;
+    height: auto;
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
@@ -116,7 +125,7 @@ body,
 
 .unity__build__data iframe
 {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 9 / 9;
     width: 95%;
     height: auto;
     border-radius: 10px;
@@ -131,7 +140,7 @@ body,
 .toppage__contents__event-button {
     width: auto;
     height: auto;
-    color: #ffffff;
+    color: #fed994;
     background: #700000;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -179,5 +188,5 @@ body,
     font-weight: bold;
     font-size: 1.4rem;
     background-color: #4c0000;
-    color: white;
+    color: #fed994;
 }
