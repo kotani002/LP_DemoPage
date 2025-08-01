@@ -1,4 +1,6 @@
 /* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+
 html {
     background-color: rgb(190, 190, 190);
 }
@@ -166,4 +168,6 @@ body,
     padding-bottom: 5%;
     font-weight: bold;
     font-size: 1.4rem;
+    background-color: #4c0000;
+    color: white;
 }

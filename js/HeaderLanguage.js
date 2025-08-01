@@ -275,7 +275,7 @@ function changeLanguage(lang) {
             return;
         //中文用にfontを変更
         case "zh":
-            document.getElementById("top_main_box").style.fontFamily = "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            document.getElementById("top_main_box").style.fontFamily = "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             return;
     }
 }
