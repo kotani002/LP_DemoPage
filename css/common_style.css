@@ -214,7 +214,7 @@ body,
 
     .header__wrapper {
         width: 100%;
-        height: 85px;
+        height: 90px;
     }
 
     /*ヘッダーの大きさ自体を変更させる*/
@@ -222,7 +222,7 @@ body,
         scale: 0.5;
         position: fixed;
         top: 0;
-        margin-top: 55px;
+        margin-top: 60px;
         margin-right: -60px;
     }
     .language-change-button {
@@ -242,14 +242,13 @@ body,
     }
 
     .header__menu {
-    margin-top: -5%;
-    width: 100px;
-    height: 10%;
-    padding: 0px;
+    width: auto;
+    height: 100%;
     }
     
     .hamburger {
         position: fixed;
-        scale: 0.75;
+        scale: 0.7;
+        margin-top: -15px;
     }
 }
