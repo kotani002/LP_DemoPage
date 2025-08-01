@@ -29,6 +29,13 @@ body,
     padding-bottom: 5%;
 }
 
+@media screen and (max-width: 750px) {
+    .body__wrapper
+    {
+        padding-top: 100px;
+    }
+}
+
 /*メインコンテンツを入れる枠*/
 .main__contents__wrapper {
     width: auto;

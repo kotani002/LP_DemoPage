@@ -32,7 +32,6 @@ body,
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 150px;
     background-color: rgb(252, 255, 213);
     /*バックグラウンドが白単色に見えているので*/
 }
