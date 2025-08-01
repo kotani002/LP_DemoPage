@@ -11,7 +11,7 @@
 
 /*カルーセルエリア*/
 .carousel {
-    aspect-ratio: 2 / 0.9;
+    aspect-ratio: 2 / 0.95;
     overflow: hidden;
     display: flex;
     flex-direction: column;
