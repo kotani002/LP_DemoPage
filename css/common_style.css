@@ -148,7 +148,7 @@ body,
 
 /*言語表示を変更するボタン*/
 .language-change-button {
-    background: linear-gradient(rgb(255, 255, 255),rgb(255, 242, 0));
+    background: linear-gradient(#ffdd22,#ff4f0a);
     font-size: 1.5rem;
     font-weight: bold;
     color: #700000;
