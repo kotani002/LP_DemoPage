@@ -73,20 +73,23 @@ body,
     margin-left: 1.5%;
     margin-right: 1.5%;
     text-decoration: none;
+    background: linear-gradient(#4c0000,#640000);
+    border-radius: 10px;
 }
 
 .event__card:hover{
-    background: #0000004d;
+    background: linear-gradient(#400000,#480000);
 }
 
 .event__card-text {
     margin-left: 1.5%;
     font-size: clamp(16px, 1.6vw, 32px);
     font-weight: bold;
+    color: white;
 }
 
 .event__card:link {
-    color: black;
+    color: white;
 }
 
 .event-picture {
